@@ -1,0 +1,246 @@
+{
+    "mainPage": {
+        "subTitle": "Давайте играть в Arequipet",
+        "downloadMods": "Нажмите кнопку, чтобы скачать моды",
+        "minecraftVersion": "Версия Minecraft",
+        "downloadModsButton": "Скачать моды",
+        "downloadFabric": "Скачать Fabric"
+    },
+    "server": {
+        "actionPerformed": "Действие выполнено успешно",
+        "ping": "Пинг",
+        "uploadMod": "Максимальное количество игроков",
+        "title": "Сервер {{name}}",
+        "start": "Запустить сервер",
+        "stop": "Остановить сервер",
+        "restart": "Перезапустить сервер",
+        "delete": "Удалить сервер",
+        "confirmAlert": {
+            "title": "Вы уверены в этом действии?",
+            "message": "После запуска его нельзя отменить."
+        },
+        "serverStarted": "Сервер запущен",
+        "serverStopped": "Сервер остановлен",
+        "serverRestarted": "Сервер перезапущен",
+        "serverDeleted": "Сервер удален"
+    },    
+    "404": {
+        "title": "Ошибка: 404 Страница не найдена",
+        "message": "Веб-страница, которую вы ищете, могла быть удалена, переименована или временно недоступна."
+    },
+    "auth": {
+        "loginTitle": "Войти",
+        "signUpTitle": "Регистрация",
+        "signUpTitleBtn": "Зарегистрироваться",
+        "email": "Электронная почта",
+        "password": "Пароль",
+        "nickName": "Псевдоним",
+        "createAccount": "Нет аккаунта? Зарегистрируйтесь",
+        "forgotPassword": "Забыли пароль?",
+        "changePassword": "Изменение пароля",
+        "updatePasswordError": "Произошла ошибка при запросе на изменение пароля. Попробуйте запросить изменение снова. Если проблема повторяется, свяжитесь с администраторами.",
+        "emailSent": "Письмо отправлено",
+        "emailSentDescription": "На ваш адрес электронной почты было отправлено письмо. Если вы найдете это письмо в вашем почтовом ящике с темой 'Восстановление учетной записи', пожалуйста, проверьте папку спам.",
+        "passwordUpdatedSuccess": "Пароль успешно обновлен",
+        "expiredRequest": "Не найдено связанного запроса на изменение пароля. Это может произойти, потому что истекло установленное время 1 час, или был запрошен новый запрос на изменение пароля.",
+        "passwordRecover": "Восстановление пароля",
+        "newPassword": "Новый пароль",
+        "validators": {
+            "invalidEmail": "Неверная электронная почта",
+            "requiredEmail": "Электронная почта обязательна",
+            "requiredPassword": "Пароль обязателен",
+            "passwordMinLength": "Пароль должен содержать не менее {{min}} символов",
+            "passwordMaxLength": "Пароль должен содержать не более {{max}} символов",
+            "passwordUpper": "Пароль должен содержать заглавную букву",
+            "passwordLower": "Пароль должен содержать строчную букву",
+            "passwordSymbol": "Пароль должен содержать символ",
+            "passwordNumber": "Пароль должен содержать цифру",
+            "requiredNickName": "Имя пользователя обязательно",
+            "nickNameMinLength": "Имя пользователя должно содержать не менее {{min}} символов",
+            "nickNameMaxLength": "Имя пользователя должно содержать не более {{max}} символов"
+        },
+        "successLogin": "Успешный вход в систему",
+        "accountCreatedMessage": "Учетная запись создана",
+        "welcomeMessage": "Добро пожаловать, {{nickName}}, в Arequipet"
+    },
+    "uploadMod": {
+        "title": "Загрузить мод",
+        "name": "Имя мода",
+        "version": "Версия мода",
+        "url": "URL мода",
+        "errors": {
+            "version": "Неверная версия",
+            "name": "Неверное имя",
+            "upload": "Ошибка при загрузке мода {{fileName}}"
+        },
+        "successful": "Мод {{fileName}} успешно загружен",
+        "popUp": {
+            "warn": {
+                "type": "Выберите тип мода: Сервер/Клиент",
+                "name": "Проверьте имя мода",
+                "version": "Проверьте версию мода",
+                "file": "Проверьте файл"
+            }
+        }
+    },
+    "uploadMultiple": {
+        "title": "Загрузить мод",
+        "dropFiles": "Перетащите файлы сюда или нажмите, чтобы выбрать их",
+        "table": {
+            "id": "ID",
+            "name": "Имя",
+            "version": "Версия",
+            "fileName": "Имя файла",
+            "type": "Тип мода"
+        },
+        "errors": {
+            "verifyMods": "Произошла ошибка при проверке существующих модов. Пожалуйста, попробуйте снова."
+        }
+    },
+    "listMods": {
+        "title": "Список модов",
+        "addMod": "Добавить мод",
+        "createZip": "Создать .ZIP",
+        "deleteMods": "Вы уверены, что хотите удалить выбранные моды?",
+        "newResource": "Новый ресурс",
+        "table": {
+            "name": "Имя",
+            "version": "Версия",
+            "fileName": "Файл",
+            "type": "Тип мода"
+        },
+        "popUpDuplicateFile": {
+            "title": "Дублировать файл",
+            "text": "Файл {{name}} уже существует в списке и будет проигнорирован."
+        },
+        "popUpBadFile": {
+            "title": "Загрузите допустимый файл",
+            "text": "Пожалуйста, убедитесь, что все выбранные моды имеют расширение .Jar"
+        }
+    },
+    "modConfig": {
+        "title": "Редактировать конфигурацию мода",
+        "editModTitle": "Редактировать {{filename}}",
+        "successful": "{{filename}} успешно обновлен",
+        "errors": {
+            "update": "Ошибка обновления {{filename}}",
+            "retrieve": "Не удалось получить конфигурацию"
+        }
+    },
+    "socketServerConnectionLost": "Соединение с сервером потеряно",
+    "serverProperties": "Редактировать server.properties",
+    "backups": {
+        "title": "Список резервных копий",
+        "creationProgress": "Прогресс создания резервной копии: {{value}}%",
+        "driveProgress": "Загрузка файла на Google Drive: {{value}}%",
+        "downloadBackup": "Загрузка резервной копии: {{value}}%",
+        "deleteQuestion": "Вы уверены, что хотите удалить выбранные резервные копии?",
+        "deletingBackups": "Удаление резервных копий",
+        "backupErrorTitle": "Произошла ошибка при удалении резервных копий",
+        "createBackups": "Создать резервную копию",
+        "table": {
+            "fileName": "Имя",
+            "createdAt": "Дата создания"
+        },
+        "completePopUp": {
+            "title": "Завершено",
+            "text": "Резервная копия успешно создана"
+        }
+    },
+    "commands": {
+        "title": "Выполнить команду",
+        "terminalTitle": "Терминал Minecraft. Введите 'help' для получения дополнительной информации",
+        "descriptions": {
+            "helpTitle": "mine-help",
+            "helpText": "Получите команды поддержки"
+        }
+    },
+    "navBar": {
+        "mods": {
+            "main": "Моды",
+            "add": "Добавить",
+            "addMultiple": "Добавить несколько",
+            "download": "Скачать моды"
+        },
+        "configuration": {
+            "main": "Настройки",
+            "serverProperties": "Свойства сервера",
+            "modsProperties": "Свойства модов"
+        },
+        "server":{
+            "terminal": "Терминал",
+            "mainTitle": "Сервер"
+        },   
+        "backups": "Резервные копии",
+        "readyToPlay": "Готовы к игре?",
+        "serverStatus": "Статус сервера"
+    },
+    "terminal": {
+        "helpMessage": "Введите \"help\", чтобы просмотреть все доступные команды.",
+        "clearMessage": "Очистить консоль",
+        "prompt": "Команда",
+        "promptMessage": "Изменить приглашение терминала.",
+        "theme": "Тема",
+        "themeMessage": "Изменить тему терминала. Доступные темы:",
+        "toggleControlBarMessage": "Скрыть/показать верхнюю панель управления.",
+        "buttonsControlBarMessage": "Скрыть/показать кнопки панели управления.",
+        "mathExpressionMessage": "Вычислить математическое выражение",
+        "minecraftHelpMessage": "Получить справку по командам Minecraft",
+        "runMinecraftCommandMessage": "Выполнить команду Minecraft сервера"
+    },
+    "commons": {
+        "defaultVariable": "{{variable}} по умолчанию",
+        "help": "Помощь",
+        "yes": "Да",
+        "no": "Нет",
+        "players": "Игроки",
+        "on": "Включено",
+        "off": "Выключено",
+        "update": "Обновить",
+        "home": "Главная",
+        "logout": "Выйти",
+        "login": "Войти",
+        "dashboard": "Панель управления",
+        "notAvailable": "Недоступно",
+        "available": "Доступно",
+        "downloads": "Загрузки",
+        "download": "Скачать",
+        "server": "Сервер",
+        "client": "Клиент",
+        "upload": "Загрузить",
+        "uploadMod": "Загрузить мод",
+        "status": "Статус",
+        "delete": "Удалить",
+        "complete": "Завершено",
+        "pending": "В ожидании",
+        "error": "Ошибка",
+        "loading": "Загрузка...",
+        "operationCancel": "Операция отменена",
+        "madeBy": "Создано",
+        "vasitosCorp": "Vasitos Corp",
+        "softwareDev": {
+            "po": "Владелец продукта",
+            "dev": "Разработчик",
+            "supervisor": "Супервайзер",
+            "pe": "Инженер по производительности",
+            "ce": "Инженер по облачным вычислениям",
+            "tester": "Тестировщик",
+            "designer": "Дизайнер (UI)",
+            "betaTester": "Бета-тестировщик"
+        },
+        "errors": {
+            "genericMessage": "Произошла ошибка",
+            "oops": "Упс",
+            "formTitle": "Упс, что-то пропущено в форме",
+            "authentication": "Нет разрешения"
+        },
+        "langs": {
+            "spanish": "Испанский",
+            "english": "Английский",
+            "japanese": "Японский",
+            "french": "Французский",
+            "russian": "Русский",
+            "desmadrero": "Буйство"
+        }
+    }
+}

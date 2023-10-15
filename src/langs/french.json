@@ -1,0 +1,246 @@
+{
+    "mainPage": {
+        "subTitle": "Jouons à Arequipet",
+        "downloadMods": "Appuyez sur le bouton pour télécharger les mods.",
+        "minecraftVersion": "Version de Minecraft",
+        "downloadModsButton": "Télécharger les mods",
+        "downloadFabric": "Télécharger Fabric"
+    },
+    "server": {
+        "actionPerformed": "Action accomplie avec succès",
+        "ping": "Ping",
+        "uploadMod": "Nombre maximum de joueurs",
+        "title": "Serveur {{name}}",
+        "start": "Démarrer le serveur",
+        "stop": "Arrêter le serveur",
+        "restart": "Redémarrer le serveur",
+        "delete": "Supprimer le serveur",
+        "confirmAlert": {
+            "title": "Êtes-vous sûr de cette action ?",
+            "message": "Une fois démarré, il ne peut pas être annulé."
+        },
+        "serverStarted": "Serveur démarré",
+        "serverStopped": "Serveur arrêté",
+        "serverRestarted": "Serveur redémarré",
+        "serverDeleted": "Serveur supprimé"
+    },
+    "404": {
+        "title": "Erreur : 404 Non trouvé",
+        "message": "La page que vous recherchez a peut-être été supprimée, renommée ou est temporairement indisponible."
+    },
+    "auth": {
+        "loginTitle": "Se connecter",
+        "signUpTitle": "S'inscrire",
+        "signUpTitleBtn": "S'inscrire",
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "nickName": "Pseudo",
+        "createAccount": "Pas encore de compte ? Inscrivez-vous",
+        "forgotPassword": "Mot de passe oublié ?",
+        "changePassword": "Changer de mot de passe",
+        "updatePasswordError": "Une erreur s'est produite lors de la demande de changement de mot de passe. Veuillez réessayer, et si le problème persiste, contactez les administrateurs.",
+        "emailSent": "E-mail envoyé",
+        "emailSentDescription": "Un e-mail a été envoyé à votre adresse e-mail. Si vous trouvez l'e-mail dans votre boîte de réception avec le titre 'Récupération de compte', veuillez vérifier votre dossier de spam.",
+        "passwordUpdatedSuccess": "Mot de passe mis à jour avec succès",
+        "expiredRequest": "Aucune demande de changement de mot de passe associée n'a été trouvée. Cela peut être dû à l'expiration du délai d'une heure ou à une nouvelle demande de changement de mot de passe.",
+        "passwordRecover": "Récupération du mot de passe",
+        "newPassword": "Nouveau mot de passe",
+        "validators": {
+            "invalidEmail": "E-mail invalide",
+            "requiredEmail": "L'e-mail est requis",
+            "requiredPassword": "Le mot de passe est requis",
+            "passwordMinLength": "Le mot de passe doit avoir au moins {{min}} caractères",
+            "passwordMaxLength": "Le mot de passe ne doit pas dépasser {{max}} caractères",
+            "passwordUpper": "Le mot de passe doit contenir une lettre majuscule",
+            "passwordLower": "Le mot de passe doit contenir une lettre minuscule",
+            "passwordSymbol": "Le mot de passe doit contenir un symbole",
+            "passwordNumber": "Le mot de passe doit contenir un chiffre",
+            "requiredNickName": "Le nom d'utilisateur est requis",
+            "nickNameMinLength": "Le nom d'utilisateur doit avoir au moins {{min}} caractères",
+            "nickNameMaxLength": "Le nom d'utilisateur ne doit pas dépasser {{max}} caractères"
+        },
+        "successLogin": "Connexion réussie",
+        "accountCreatedMessage": "Compte créé",
+        "welcomeMessage": "Bienvenue {{nickName}} sur Arequipet"
+    },
+    "uploadMod": {
+        "title": "Télécharger un mod",
+        "name": "Nom du mod",
+        "version": "Version du mod",
+        "url": "URL du mod",
+        "errors": {
+            "version": "Version invalide",
+            "name": "Nom invalide",
+            "upload": "Une erreur s'est produite lors du téléchargement du mod {{fileName}}"
+        },
+        "successful": "Le mod {{fileName}} a été téléchargé avec succès",
+        "popUp": {
+            "warn": {
+                "type": "Sélectionnez le type de mod Serveur/Client",
+                "name": "Vérifiez le nom du mod",
+                "version": "Vérifiez la version du mod",
+                "file": "Vérifiez le fichier"
+            }
+        }
+    },
+    "uploadMultiple": {
+        "title": "Télécharger plusieurs mods",
+        "dropFiles": "Faites glisser et déposez les fichiers ici ou cliquez pour les sélectionner",
+        "table": {
+            "id": "ID",
+            "name": "Nom",
+            "version": "Version",
+            "fileName": "Nom du fichier",
+            "type": "Type de mod"
+        },
+        "errors": {
+            "verifyMods": "Une erreur s'est produite lors de la vérification des mods existants. Veuillez réessayer."
+        }
+    },
+    "listMods": {
+        "title": "Liste des mods",
+        "addMod": "Ajouter un mod",
+        "createZip": "Créer un fichier .ZIP",
+        "deleteMods": "Êtes-vous sûr de vouloir supprimer les mods sélectionnés ?",
+        "newResource": "Nouvelle ressource",
+        "table": {
+            "name": "Nom",
+            "version": "Version",
+            "fileName": "Fichier",
+            "type": "Type de mod"
+        },
+        "popUpDuplicateFile": {
+            "title": "Fichier en double",
+            "text": "Le fichier {{name}} existe déjà dans la liste et sera ignoré."
+        },
+        "popUpBadFile": {
+            "title": "Téléchargez un fichier valide",
+            "text": "Veuillez vous assurer que tous les mods sélectionnés ont l'extension .Jar"
+        }
+    },
+    "modConfig": {
+        "title": "Modifier la configuration du mod",
+        "editModTitle": "Modifier {{filename}}",
+        "successful": "{{filename}} a été mis à jour avec succès",
+        "errors": {
+            "update": "Erreur de mise à jour de {{filename}}",
+            "retrieve": "Impossible de récupérer la configuration"
+        }
+    },
+    "socketServerConnectionLost": "La connexion au serveur a été perdue",
+    "serverProperties": "Modifier server.properties",
+    "backups": {
+        "title": "Liste des sauvegardes",
+        "creationProgress": "Progression de la création de la sauvegarde : {{value}}%",
+        "driveProgress": "Chargement du fichier sur Google Drive : {{value}}%",
+        "downloadBackup": "Téléchargement de la sauvegarde : {{value}}%",
+        "deleteQuestion": "Êtes-vous sûr de vouloir supprimer les sauvegardes sélectionnées ?",
+        "deletingBackups": "Suppression des sauvegardes",
+        "backupErrorTitle": "Une erreur s'est produite lors de la suppression des sauvegardes",
+        "createBackups": "Créer une sauvegarde",
+        "table": {
+            "fileName": "Nom",
+            "createdAt": "Date de création"
+        },
+        "completePopUp": {
+            "title": "Terminé",
+            "text": "La sauvegarde a été créée avec succès"
+        }
+    },
+    "commands": {
+        "title": "Exécuter une commande",
+        "terminalTitle": "Terminal Minecraft, tapez 'help' pour plus d'informations",
+        "descriptions": {
+            "helpTitle": "mine-help",
+            "helpText": "Obtenez les commandes d'aide"
+        }
+    },
+    "navBar": {
+        "mods": {
+            "main": "Mods",
+            "add": "Ajouter",
+            "addMultiple": "Ajouter plusieurs",
+            "download": "Télécharger des mods"
+        },
+        "configuration": {
+            "main": "Configuration",
+            "serverProperties": "Propriétés du serveur",
+            "modsProperties": "Propriétés des mods"
+        },
+        "server":{
+            "terminal": "Terminal",
+            "mainTitle": "Serveur"
+        },
+        "backups": "Sauvegardes",
+        "readyToPlay": "Prêt à jouer ?",
+        "serverStatus": "État du serveur"
+    },
+    "terminal": {
+        "helpMessage": "Tapez \"help\" pour afficher tous les commandes disponibles.",
+        "clearMessage": "Effacer la console",
+        "prompt": "Commande",
+        "promptMessage": "Changer le message d'invite du terminal.",
+        "theme": "Thème",
+        "themeMessage": "Changer le thème du terminal. Thèmes autorisés :",
+        "toggleControlBarMessage": "Afficher/Masquer la barre de contrôle supérieure.",
+        "buttonsControlBarMessage": "Afficher/Masquer les boutons de la barre de contrôle.",
+        "mathExpressionMessage": "Évaluer une expression mathématique",
+        "minecraftHelpMessage": "Obtenir des commandes d'aide de Minecraft",
+        "runMinecraftCommandMessage": "Exécuter une commande de serveur Minecraft"
+    },
+    "commons": {
+        "defaultVariable": "{{variable}} par défaut",
+        "help": "Aide",
+        "yes": "Oui",
+        "no": "Non",
+        "players": "Joueurs",
+        "on": "Allumé",
+        "off": "Éteint",
+        "update": "Mettre à jour",
+        "home": "Accueil",
+        "logout": "Se déconnecter",
+        "login": "Se connecter",
+        "dashboard": "Tableau de bord",
+        "notAvailable": "Indisponible",
+        "available": "Disponible",
+        "downloads": "Téléchargements",
+        "download": "Télécharger",
+        "server": "Serveur",
+        "client": "Client",
+        "upload": "Télécharger",
+        "uploadMod": "Télécharger un mod",
+        "status": "Statut",
+        "delete": "Supprimer",
+        "complete": "Terminé",
+        "pending": "En attente",
+        "error": "Erreur",
+        "loading": "Chargement...",
+        "operationCancel": "Opération annulée",
+        "madeBy": "Créé par",
+        "vasitosCorp": "Vasitos Corp",
+        "softwareDev": {
+            "po": "Propriétaire du produit",
+            "dev": "Développeur",
+            "supervisor": "Superviseur",
+            "pe": "Ingénieur de performance",
+            "ce": "Ingénieur cloud",
+            "tester": "Testeur",
+            "designer": "Concepteur (UI)",
+            "betaTester": "Testeur bêta"
+        },
+        "errors": {
+            "genericMessage": "Une erreur s'est produite",
+            "oops": "Oups",
+            "formTitle": "Oops, vous avez oublié de remplir quelque chose dans le formulaire",
+            "authentication": "Autorisation refusée"
+        },
+        "langs": {
+            "spanish": "Espagnol",
+            "english": "Anglais",
+            "japanese": "Japonais",
+            "french": "Français",
+            "russian": "Russe",
+            "desmadrero": "Desmadrero"
+        }
+    }
+}

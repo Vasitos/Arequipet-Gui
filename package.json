@@ -1,0 +1,60 @@
+{
+  "name": "maincra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@elastic/apm-rum": "^5.12.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@iconify/react": "^4.1.0",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/lab": "^5.0.0-alpha.113",
+    "@mui/material": "^5.10.17",
+    "@mui/x-data-grid": "^5.17.16",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "formik": "^2.2.9",
+    "i18next": "^23.5.1",
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-ace": "^10.1.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.2.2",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "react-terminal-es": "^1.0.0",
+    "simplebar-react": "^3.2.4",
+    "skinview3d": "3.0.1",
+    "socket.io-client": "^4.6.2",
+    "sweetalert2": "^11.6.15",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11",
+    "zustand": "^4.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

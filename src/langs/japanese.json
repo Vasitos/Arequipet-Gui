@@ -1,0 +1,246 @@
+{
+    "mainPage": {
+        "subTitle": "アレキペトで遊ぼう",
+        "downloadMods": "モッズをダウンロードするにはボタンを押してください。",
+        "minecraftVersion": "Minecraftバージョン",
+        "downloadModsButton": "モッズをダウンロード",
+        "downloadFabric": "Fabricをダウンロード"
+    },
+    "server": {
+        "actionPerformed": "アクションが成功裏に完了しました",
+        "ping": "ピング",
+        "uploadMod": "プレイヤーの最大数",
+        "title": "サーバー {{name}}",
+        "start": "サーバーを開始",
+        "stop": "サーバーを停止",
+        "restart": "サーバーを再起動",
+        "delete": "サーバーを削除",
+        "confirmAlert": {
+            "title": "このアクションを本当に行いますか？",
+            "message": "一度開始すると、キャンセルできません。"
+        },
+        "serverStarted": "サーバーが開始されました",
+        "serverStopped": "サーバーが停止しました",
+        "serverRestarted": "サーバーが再起動しました",
+        "serverDeleted": "サーバーが削除されました"
+    },
+    "404": {
+        "title": "エラー：404 見つかりません",
+        "message": "お探しのウェブページは削除されたか、名前が変更されたか、一時的に利用できない可能性があります。"
+    },
+    "auth": {
+        "loginTitle": "ログイン",
+        "signUpTitle": "登録",
+        "signUpTitleBtn": "登録",
+        "email": "メール",
+        "password": "パスワード",
+        "nickName": "ニックネーム",
+        "createAccount": "アカウントをお持ちでないですか？ 登録してください",
+        "forgotPassword": "パスワードをお忘れですか？",
+        "changePassword": "パスワードの変更",
+        "updatePasswordError": "パスワードの変更リクエスト中にエラーが発生しました。もう一度変更リクエストをしてください。問題が解決しない場合は、管理者に連絡してください。",
+        "emailSent": "メールが送信されました",
+        "emailSentDescription": "メールがメールボックスに「アカウントの復元」というタイトルで表示された場合、メールが送信されました。スパムフォルダも確認してください。",
+        "passwordUpdatedSuccess": "パスワードが正常に更新されました",
+        "expiredRequest": "パスワード変更のリクエストが関連付けられていません。これは1時間の制限時間が切れたか、新しいパスワード変更がリクエストされたためです。",
+        "passwordRecover": "パスワードの回復",
+        "newPassword": "新しいパスワード",
+        "validators": {
+            "invalidEmail": "無効なメール",
+            "requiredEmail": "メールは必須です",
+            "requiredPassword": "パスワードは必須です",
+            "passwordMinLength": "パスワードは少なくとも{{min}}文字必要です",
+            "passwordMaxLength": "パスワードは最大{{max}}文字です",
+            "passwordUpper": "パスワードに大文字のアルファベットが必要です",
+            "passwordLower": "パスワードに小文字のアルファベットが必要です",
+            "passwordSymbol": "パスワードにシンボルが必要です",
+            "passwordNumber": "パスワードに数字が必要です",
+            "requiredNickName": "ユーザー名は必須です",
+            "nickNameMinLength": "ユーザー名は少なくとも{{min}}文字必要です",
+            "nickNameMaxLength": "ユーザー名は最大{{max}}文字です"
+        },
+        "successLogin": "ログインに成功しました",
+        "accountCreatedMessage": "アカウントが登録されました",
+        "welcomeMessage": "Arequipetへようこそ、{{nickName}}さん"
+    },
+    "uploadMod": {
+        "title": "Modをアップロード",
+        "name": "Mod名",
+        "version": "Modバージョン",
+        "url": "Mod URL",
+        "errors": {
+            "version": "無効なバージョン",
+            "name": "無効な名前",
+            "upload": "{{fileName}}のModをアップロード中にエラーが発生しました"
+        },
+        "successful": "{{fileName}}のModが正常にアップロードされました",
+        "popUp": {
+            "warn": {
+                "type": "Server/Client Modタイプを選択してください",
+                "name": "Mod名を確認してください",
+                "version": "Modバージョンを確認してください",
+                "file": "ファイルを確認してください"
+            }
+        }
+    },
+    "uploadMultiple": {
+        "title": "Modをアップロード",
+        "dropFiles": "ここにファイルをドラッグ＆ドロップするか、選択するにはクリックしてください",
+        "table": {
+            "id": "ID",
+            "name": "名前",
+            "version": "バージョン",
+            "fileName": "ファイル名",
+            "type": "Modタイプ"
+        },
+        "errors": {
+            "verifyMods": "既存のModを確認中にエラーが発生しました。もう一度お試しください。"
+        }
+    },
+    "listMods": {
+        "title": "Modのリスト",
+        "addMod": "Modを追加",
+        "createZip": ".ZIPを作成",
+        "deleteMods": "選択したModを削除してもよろしいですか？",
+        "newResource": "新しいリソース",
+        "table": {
+            "name": "名前",
+            "version": "バージョン",
+            "fileName": "ファイル",
+            "type": "Modタイプ"
+        },
+        "popUpDuplicateFile": {
+            "title": "重複ファイル",
+            "text": "{{name}}ファイルはすでにリストに存在し、無視されます。"
+        },
+        "popUpBadFile": {
+            "title": "有効なファイルをアップロードしてください",
+            "text": "選択したすべてのModが.Jarファイルであることを確認してください"
+        }
+    },
+    "modConfig": {
+        "title": "Mod設定を編集",
+        "editModTitle": "{{filename}}を編集",
+        "successful": "{{filename}}が正常に更新されました",
+        "errors": {
+            "update": "{{filename}}の更新中にエラーが発生しました",
+            "retrieve": "設定を取得できませんでした"
+        }
+    },
+    "socketServerConnectionLost": "サーバーへの接続が失われました",
+    "serverProperties": "server.propertiesを編集",
+    "backups": {
+        "title": "バックアップのリスト",
+        "creationProgress": "バックアップの作成進捗：{{value}}%",
+        "driveProgress": "Google Driveへのファイルアップロード：{{value}}%",
+        "downloadBackup": "バックアップのダウンロード：{{value}}%",
+        "deleteQuestion": "選択したバックアップを削除してもよろしいですか？",
+        "deletingBackups": "バックアップの削除中",
+        "backupErrorTitle": "バックアップの削除中にエラーが発生しました",
+        "createBackups": "バックアップを作成",
+        "table": {
+            "fileName": "名前",
+            "createdAt": "作成日"
+        },
+        "completePopUp": {
+            "title": "完了",
+            "text": "バックアップは正常に作成されました"
+        }
+    },
+    "commands": {
+        "title": "コマンドを実行",
+        "terminalTitle": "Minecraftターミナル、詳細については 'help' を入力してください",
+        "descriptions": {
+            "helpTitle": "mine-help",
+            "helpText": "サポートコマンドを取得"
+        }
+    },
+    "navBar": {
+        "mods": {
+            "main": "Mods",
+            "add": "追加",
+            "addMultiple": "複数追加",
+            "download": "Modをダウンロード"
+        },
+        "configuration": {
+            "main": "設定",
+            "serverProperties": "サーバー設定",
+            "modsProperties": "Mod設定"
+        },
+        "server":{
+            "terminal": "ターミナル",
+            "mainTitle": "サーバー"
+        },
+        "backups": "バックアップ",
+        "readyToPlay": "プレイの準備ができましたか？",
+        "serverStatus": "サーバーステータス"
+    },
+    "terminal": {
+        "helpMessage": "利用可能なすべてのコマンドを表示するには「help」と入力してください。",
+        "clearMessage": "コンソールをクリア",
+        "prompt": "コマンド",
+        "promptMessage": "ターミナルのプロンプトを変更します。",
+        "theme": "テーマ",
+        "themeMessage": "ターミナルのテーマを変更します。許可されているテーマ",
+        "toggleControlBarMessage": "上部のコントロールバーの表示/非表示を切り替えます。",
+        "buttonsControlBarMessage": "コントロールバーボタンの表示/非表示を切り替えます。",
+        "mathExpressionMessage": "数学的式を評価",
+        "minecraftHelpMessage": "Minecraftからのヘルプコマンドを取得",
+        "runMinecraftCommandMessage": "Minecraftサーバーコマンドを実行"
+    },
+    "commons": {
+        "defaultVariable": "{{variable}} デフォルトで",
+        "help": "ヘルプ",
+        "yes": "はい",
+        "no": "いいえ",
+        "players": "プレイヤー",
+        "on": "オン",
+        "off": "オフ",
+        "update": "更新",
+        "home": "ホームページ",
+        "logout": "ログアウト",
+        "login": "ログイン",
+        "dashboard": "ダッシュボード",
+        "notAvailable": "利用不可",
+        "available": "利用可能",
+        "downloads": "ダウンロード",
+        "download": "ダウンロード",
+        "server": "サーバー",
+        "client": "クライアント",
+        "upload": "アップロード",
+        "uploadMod": "Modをアップロード",
+        "status": "ステータス",
+        "delete": "削除",
+        "complete": "完了",
+        "pending": "保留中",
+        "error": "エラー",
+        "loading": "読み込み中...",
+        "operationCancel": "操作がキャンセルされました",
+        "madeBy": "製作者",
+        "vasitosCorp": "Vasitos Corp",
+        "softwareDev": {
+            "po": "プロダクトオーナー",
+            "dev": "開発者",
+            "supervisor": "スーパーバイザー",
+            "pe": "パフォーマンスエンジニア",
+            "ce": "クラウドエンジニア",
+            "tester": "テスター",
+            "designer": "デザイナー（UI）",
+            "betaTester": "ベータテスター"
+        },
+        "errors": {
+            "genericMessage": "エラーが発生しました",
+            "oops": "おっと",
+            "formTitle": "おっと、フォームで何かを見逃しました",
+            "authentication": "権限がありません"
+        },
+        "langs": {
+            "spanish": "スペイン語",
+            "english": "英語",
+            "japanese": "日本語",
+            "french": "フランス語",
+            "russian": "ロシア語",
+            "desmadrero": "暴れ回る"
+        }
+    }
+}
