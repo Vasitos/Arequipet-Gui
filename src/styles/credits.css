@@ -4,14 +4,17 @@
     background-size: 10%;
     color: #FFF;
     text-align: center;
-    font-family: Minecraft;
     text-shadow: 0.2vw 0.2vw 0 #383838;
     min-height: 100%;
     margin: 0;
     height: 100vh;
+}
+
+.backgroundDirtScroll{
     overflow: hidden;
     -webkit-animation: BackgroundScroll 20s ease-out;
     animation: BackgroundScroll 20s ease-out;
+    
 }
 
 .creditsScroll {

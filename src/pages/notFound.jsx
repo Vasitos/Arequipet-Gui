@@ -11,7 +11,7 @@ function NotFound() {
     const { t } = useTranslation();
 
     return (
-        <div className="backgroundDirt">
+        <div className="backgroundDirt backgroundDirtScroll">
             <Stack justifyContent="space-between" alignItems="center" className="creditsScroll" paddingTop={4}>
                 <img alt="Minecraft" src={minecraftLogo} width="60%" />
                 <Typography variant="h4" sx={{ color: 'yellow' }}>

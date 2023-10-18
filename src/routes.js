@@ -19,7 +19,6 @@ import ModsSettingsView from './pages/modsSettings';
 import ModSettingsView from './pages/modSettings';
 import DashboardLayout from './components/Layout/dashboardLayout';
 import Server from './pages/server'
-import Test from './pages/test'
 export default function Router({ user, setIsRoutesReady, isRoutesReady }) {
     const isSuperAdmin = user && user.roles.includes('super_admin');
     const isAdmin = user && user.roles.includes('admin');
@@ -73,10 +72,6 @@ export default function Router({ user, setIsRoutesReady, isRoutesReady }) {
             path: '/dashboard',
             element: <DashboardLayout user={user} isAdmin={isAdmin} />,
             children: permittedRoutes,
-        },
-        {
-            path: 'test',
-            element: <div className="grass"><Test /></div>,
         },
         {
             path: 'login',

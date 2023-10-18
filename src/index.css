@@ -23,7 +23,10 @@ h1 {
 }
 
 .grass {
-  background-image: url('img/grass.jpg');
+  image-rendering: auto;
+	background: #303030 url("img/panorama.png") repeat-x 0 0;
+	background-size: cover;
+	animation: MinecraftBackground 240s linear infinite;
   font-family: Minecrafter;
   color: black;
 }
@@ -37,4 +40,10 @@ h1 {
 ::-webkit-scrollbar-thumb {
   background-color: rgba(0,0,0,.1);
   outline: 1px solid slategrey;
+}
+
+@keyframes MinecraftBackground {
+	100% {
+		background-position-x: 1000%;
+	}
 }

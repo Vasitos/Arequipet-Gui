@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@elastic/apm-rum": "^5.12.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@iconify/react": "^4.1.0",
     "@mui/icons-material": "^5.10.16",
     "@mui/lab": "^5.0.0-alpha.113",
     "@mui/material": "^5.10.17",
@@ -25,7 +23,6 @@
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
     "react-terminal-es": "^1.0.0",
-    "simplebar-react": "^3.2.4",
     "skinview3d": "3.0.1",
     "socket.io-client": "^4.6.2",
     "sweetalert2": "^11.6.15",
