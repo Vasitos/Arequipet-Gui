@@ -5,6 +5,8 @@ import { styled } from '@mui/material/styles';
 //
 import Header from './header';
 import Nav from './nav/nav.js';
+import LoadingComponent from './utils/loading'
+import { useTranslation } from 'react-i18next';
 // States
 import { storeData } from '../../states/stores';
 // ----------------------------------------------------------------------
@@ -34,6 +36,7 @@ const Main = styled('div')(({ theme }) => ({
 // ----------------------------------------------------------------------
 
 export default function DashboardLayout({ user, isAdmin, redirectPath = '/' }) {
+    const { t } = useTranslation();
     const [open, setOpen] = useState(false);
     const [loading, setLoading] = useState(true);
     const addUser = storeData(state => state.addUser);
@@ -52,7 +55,7 @@ export default function DashboardLayout({ user, isAdmin, redirectPath = '/' }) {
     }
 
     if (loading) {
-        return <div>Loading...</div>;
+        return LoadingComponent(t);
     }
 
     return (
